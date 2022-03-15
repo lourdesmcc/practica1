@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="PERFIL DE COLABORADORES">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" contente="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Información Personal
+                </legend>
+                <p><label>Nombres:<input type="text" name="Nombres"></label></p>
+                <p><label>Apellidos:<input type="text" name="apellidos"></label></p>
+                <p><label>DNI:<input type="text" name="DNI"></label></p>
+                <p><label>Genero:
+                    <select name="Genero">
+                        <option></option>
+                        <option>Femenino</option>
+                        <option>Masculino</option>
+                    </select>
+                </label></p>
+                <p><label>Fecha de Nacimiento:<input type="date" name="fecha de nacimiento"></label></p>
+                <p><label>Correo electrónico:<input type="email" name="correo electrónico"></label></p>
+                <p><label>Dirección:<input type="text" name="dirección"></label></p>
+                <p><label>Tipo de Vivienda:<br>
+                    <input type="radio" name="tipo de vivienda" value="Propia">Propia<br>
+                    <input type="radio" name="tipo de vivienda" value="Alquiler">Alquiler<br>
+                    <input type="radio" name="tipo de vivienda" value="casa Familiar">Casa Familiar               
+                </label></p>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Información Académica
+                </legend>
+                <p><label>Centro de Estudios:
+                    <select multiple name="Centro de Estudios[]">
+                        <option value="CE"></option>
+                        <option value="CE">USIL</option>
+                        <option value="CE">UNMSM</option>
+                        <option value="CE">UNI</option>
+                        <option value="CE">PUCP</option>
+                        <option value="CE">UPC</option>
+                        <option value="CE">UNFV</option>
+                        <option value="CE">UPN</option>
+                        <option value="CE">UCV</option>
+                        <option value="CE">UNAC</option>
+                    </select>
+                </label></p>
+                <P><label>Habilidades:<br>
+                    <input type="checkbox" name="JAVA">JAVA<br>
+                    <input type="checkbox" name="HTML">HTML<br> 
+                    <input type="checkbox" name="CSS">CSS<br>
+                    <input type="checkbox" name="JAVA SCRIPT">JAVA SCRIPT<br>
+                    <input type="checkbox" name="PHP">PHP
+                </label></P>
+            </fieldset>
+            <fieldset>
+                <legend>Información Adicional</legend>
+                <label>Deja un mensaje:
+                    <textarea name="mensaje"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" name="Aceptar uso de información">Aceptar uso de información y politicas de datos<br>
+                <input type="checkbox" name="Enviar correo electrónico de confirmación">Enviar correo electrónico de confirmación<br>
+                <br>
+                <input type="reset" value="Reiniciar el formulario">
+                <input type="submit" Value="Enviar el formulario">
+            </fieldset> 
+        </form>
+
+    </body>
+</html>
+
+
+    
+
